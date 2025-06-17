@@ -1,4 +1,4 @@
-# microservice-on-ECS-TF-automation
+<img width="1248" alt="Screenshot 2025-06-15 at 23 09 06" src="https://github.com/user-attachments/assets/f9f21946-5e41-4998-bed0-11073418140e" /># microservice-on-ECS-TF-automation
 ## **Technology Usage**
 
 - Architecture overviews
@@ -17,8 +17,7 @@
     9. **Terraform workspce share** -  **isolates** each microservice's configuration, avoiding interference
     10. **Shared State Access via Remote Backend - don't need to redefine** networking and IAM in every service , Teams can work independently , No state locking conflicts 
 - Architecture Details Diagram
-    
-    ![Screenshot 2025-06-15 at 15.21.34.png](attachment:e0a08636-96d1-4dbb-9ab5-bdc095de9a1f:Screenshot_2025-06-15_at_15.21.34.png)
+ (attachment:e0a08636-96d1-4dbb-9ab5-bdc095de9a1f:Screenshot_2025-06-15_at_15.21.34.png)
     
 - PreRequirement in Terraform Cloud for workspace management
     1. Create respective workspace( infrastructure, product-page-service, details-servicce, reviews-service, ratings-service, reviews-service)
